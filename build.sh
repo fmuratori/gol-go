@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Initialize the Go module and generate the go.mod file
+# go mod init github.com/fmuratori/gol-go
 go mod init golgo
 
 # Download dependencies (if any)
